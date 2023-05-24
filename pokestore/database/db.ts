@@ -32,7 +32,7 @@ export const conexion =async () => {
     console.log('Conectado a MongoDB', url)
 }
 
-export const desconexion =async () => {
+export const desconexion = async () => {
     
     if ( process.env.NODE_ENV === 'development' ) return;
 
