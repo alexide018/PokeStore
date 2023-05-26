@@ -18,6 +18,9 @@ const userSchema = new Schema({
         trim: true,
         maxlenght: 20
     },
+    favPokemons: {
+        type: [Number]
+    }
 },{
     timestamps: true,
     versionKey: false

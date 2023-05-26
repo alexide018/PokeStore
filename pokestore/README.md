@@ -8,7 +8,7 @@ docker-compose up -d
 
 * MongoDB URL Local:
 ```
-mongodb://localhost:27017/pokestoredb
+mongodb://localhost:27017/pokestoedb
 ```
 
 ## Configurar las variables de entorno

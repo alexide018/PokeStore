@@ -5,6 +5,7 @@ const toggleFavorites = ( id: number ) => {
 
     // Transforma el objeto JSON en el LocalStorage
     let favorites: number[] = JSON.parse( localStorage.getItem('favorites') || '[]' )
+    // let favorites: number[] = 
 
     // Si encuentra el 'id' en el arreglo 'favorites' 
     if (  favorites.includes(id) ) {

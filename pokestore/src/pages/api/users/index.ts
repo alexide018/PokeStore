@@ -5,6 +5,7 @@ import { db } from '../../../../database';
 type Data = {
 }
 
+
 export default async function (req: NextApiRequest, res: NextApiResponse<Data>) {
     
     const { method, body } = req;
@@ -44,10 +45,5 @@ export default async function (req: NextApiRequest, res: NextApiResponse<Data>) 
         default:
             return res.status(400).json({ msg: "Este metodo no es soportado" });
     }
-    
-    
-    
-    
-    
-    
+     
 }
